@@ -1,10 +1,10 @@
 # config
 config for terminals, nvim, etc
 
-#Install wsl
+# Install wsl
 wsl --install Ubuntu
 
-#Install oh-my-posh
+# Install oh-my-posh
 winget install JanDeDobbeleer.OhMyPosh -s winget
 
 Set env path:
