@@ -16,3 +16,11 @@ winget upgrade JanDeDobbeleer.OhMyPosh -s winget
 # Get MINGW and Zig through Choco
 choco install zig
 choco intall mingw
+
+# Use choco to install lua-ls (lua-lsp)
+choco install lua-language-server 
+
+# Navigate to choco/lib/lua-lsp
+Enable read write access to folders and subfolders to the directory.
+<br> NVIM -> :checkhealth lspconfig
+<br> Ensure config.plugins/lsp.lua is healthy and working as expected.
